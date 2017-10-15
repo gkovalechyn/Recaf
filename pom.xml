@@ -64,6 +64,15 @@
 				</configuration>
 			</plugin>
 		</plugins>
+                
+                <resources>
+                    <resource>
+                        <directory>src</directory>
+                        <includes>
+                            <include>resources/*.png</include>
+                        </includes>
+                    </resource>
+                </resources>
 	</build>
 
 	<reporting>
